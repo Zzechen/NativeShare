@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zzc.nativeshare.MainActivity">
+
+    <Button
+        android:id="@+id/btn_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All"
+        />
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_wx"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="wechat"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_wx_circle"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="wechat circle"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_qq"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="qq"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_qq_zone"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="qq zone"/>-->
+
+    <ListView
+        android:id="@+id/lv_apps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>
